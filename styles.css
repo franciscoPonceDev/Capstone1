@@ -334,3 +334,47 @@ a:hover {
 .speaker-content p {
   font-family: roboto, sans-serif;
 }
+
+/* PARTNERS */
+.partners {
+  background-color: #272a31;
+}
+
+.partners h1 {
+  color: #fff;
+}
+
+.partners hr {
+  width: 20%;
+  color: #ec5242;
+  border: #ec5242 solid 1px;
+}
+
+.p-image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.partners img {
+  width: 20%;
+  height: auto;
+  margin: 15px;
+}
+
+/* FOOTER */
+
+footer {
+  background-color: #fff;
+  padding: 30px;
+}
+
+footer img {
+  width: auto;
+  height: 80px;
+}
+
+footer h3 {
+  font-size: 18px;
+  margin: 0;
+}
