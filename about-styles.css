@@ -1,0 +1,151 @@
+.heading-content {
+  text-align: center;
+  color: #272a31be;
+}
+
+.div-box {
+  color: #272a31be;
+  border: #d3d3d3b2 solid 2px;
+  background-color: #fff;
+  line-height: 35px;
+}
+
+.info-email {
+  text-decoration: underline;
+}
+
+/* Logo Section */
+
+.logo-section {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  border-bottom: #d3d3d3b2 solid 1px;
+}
+
+.logo-section header {
+  font-weight: bolder;
+}
+
+.logo-section hr {
+  width: 5%;
+  color: #ec5242;
+  border: #ec5242 solid 1px;
+}
+
+.logo-section p {
+  font-weight: 500;
+  line-height: 6px;
+}
+
+.logo-section img {
+  margin: 50px 0;
+  border: #d3d3d3b2 solid 2px;
+  padding: 25px 0;
+}
+
+/* Past Section */
+
+.past-section {
+  background-color: #fff;
+  text-align: center;
+  padding-top: 50px;
+  border-bottom: #d3d3d3b2 solid 1px;
+}
+
+.past-section header {
+  font-weight: bolder;
+}
+
+.past-section hr {
+  width: 5%;
+  color: #ec5242;
+  border: #ec5242 solid 1px;
+}
+
+.past-section p {
+  font-weight: 500;
+  line-height: 10px;
+}
+
+.past-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.img-container {
+  width: 85%;
+  height: 350px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 9px 19px -8px rgba(0, 0, 0, 0.51);
+  margin: 30px 0;
+}
+
+.img-container img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: 0.4s;
+  transform: scale(1);
+}
+
+.overlay {
+  position: absolute;
+  width: 85%;
+  height: 350px;
+  background-color: #ec5242;
+  opacity: 0.8;
+  transition: 0.3s ease-in;
+}
+
+.img-container .figcaption {
+  position: absolute;
+  z-index: 10;
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  padding: 85px 50px;
+}
+
+.img-container .figcaption h1,
+.img-container .figcaption p {
+  margin: 0;
+  opacity: 0.8;
+  transition: all 0.5s;
+  color: #fff;
+  letter-spacing: 2px;
+}
+
+.img-container .figcaption h1 {
+  font-size: 55px;
+  transform: translate3d(0, -10px, 0);
+}
+
+.img-container .figcaption p {
+  font-size: 17px;
+  transform: translate3d(0, 10px, 0);
+}
+
+.img-container:hover img {
+  transform: scale(1.2);
+}
+
+.img-container:hover .overlay {
+  opacity: 0;
+}
+
+.img-container .figcaption:hover {
+  transform: scale(1);
+  transition: 0.3s ease-in;
+}
+
+.img-container .figcaption:hover h1,
+.img-container .figcaption:hover p {
+  opacity: 0;
+  transform: scale(1);
+}

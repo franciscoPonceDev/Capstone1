@@ -19,18 +19,18 @@ body {
 }
 
 #btn-back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none;
-    border-color: #ec5242;
-    color: #ec5242;
-  }
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  border-color: #ec5242;
+  color: #ec5242;
+}
 
 #btn-back-to-top:hover {
-    border-color: #fff;
-    background-color: #ec5242;
-    color: #fff;
+  border-color: #fff;
+  background-color: #ec5242;
+  color: #fff;
 }
 
 button {
@@ -46,7 +46,6 @@ button:hover {
   background-color: #fff;
   color: #ec5242;
 }
-
 
 /* NAVBAR */
 
@@ -383,7 +382,7 @@ footer {
   background-color: #fff;
   padding: 30px;
 }
-
+/* stylelint-disable */
 footer img {
   width: auto;
   height: 80px;
@@ -392,4 +391,12 @@ footer img {
 footer h3 {
   font-size: 18px;
   margin: 0;
+}
+/* stylelint-enable */
+
+@media (min-width: 768px) {
+  .heading-content {
+    justify-content: center;
+    align-items: center;
+  }
 }
