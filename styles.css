@@ -18,6 +18,10 @@ body {
   margin: 0;
 }
 
+.desktop-link {
+  display: none;
+}
+
 #btn-back-to-top {
   position: fixed;
   bottom: 20px;
@@ -48,6 +52,10 @@ button:hover {
 }
 
 /* NAVBAR */
+
+.header {
+  background-color: rgba(255, 255, 255, 0.55);
+}
 
 .logo-div {
   display: none;
@@ -355,11 +363,11 @@ a:hover {
 }
 
 .partners h1 {
-  color: #fff;
+  color: #d3d3d3;
 }
 
 .partners hr {
-  width: 20%;
+  width: 10%;
   color: #ec5242;
   border: #ec5242 solid 1px;
 }
@@ -371,7 +379,7 @@ a:hover {
 }
 
 .partners img {
-  width: 20%;
+  width: 22%;
   height: auto;
   margin: 15px;
 }
@@ -395,8 +403,281 @@ footer h3 {
 /* stylelint-enable */
 
 @media (min-width: 768px) {
+  /* NAVBAR */
+
+  .header {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    font-size: 0.75rem;
+  }
+
+  .toggler-icon {
+    display: none;
+  }
+
+  .header hr {
+    display: none;
+  }
+
+  .logo-div {
+    display: block;
+    margin-left: 3rem;
+  }
+
+  .logo-div img {
+    height: 35px;
+  }
+
+  .navbar {
+    margin-right: 3rem;
+    align-items: center;
+  }
+
+  nav ul {
+    align-items: center;
+  }
+
+  nav .zeromargin {
+    margin: 0 1rem 0 0 !important;
+  }
+
+  .nav-item {
+    margin-right: 1rem;
+  }
+
+  .menu-btn {
+    padding: 0.3rem;
+    margin: 0;
+  }
+
+  /* HEADING */
+
   .heading-content {
     justify-content: center;
     align-items: center;
+    padding: 40px 80px;
+  }
+
+  .heading-bg {
+    width: 100%;
+    height: auto;
+  }
+
+  .heading-content h2 {
+    font-size: 1.6rem;
+    margin: 10px;
+  }
+
+  .heading-content h1,
+  .heading-content .year {
+    font-size: 2.2rem;
+    margin: 0;
+  }
+
+  .heading-content .year {
+    margin-top: -0.4rem;
+  }
+
+  .div-box {
+    width: 80%;
+    max-width: 600px;
+    padding: 15px;
+    line-height: 20px;
+  }
+
+  .heading-content h3 {
+    font-size: 1.4rem;
+    margin-top: 1rem;
+  }
+
+  .heading-content .desktop-size {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+
+  /* PROGRAM */
+
+  .program {
+    padding-top: 1.2rem;
+  }
+
+  .program h1 {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+
+  .program hr {
+    width: 5%;
+    margin-top: 0.4rem;
+  }
+
+  .program-list {
+    width: 85vw;
+    height: 12rem;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  .program-list ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 3px;
+    margin: 0 !important;
+    padding: 0;
+    width: 100%;
+  }
+
+  .program-list li {
+    height: auto;
+    margin: 0 !important;
+    padding: 0 !important;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .program-list li:hover {
+    border: #fff solid 1px;
+  }
+
+  .program-item {
+    width: 100%;
+  }
+
+  .program-list img {
+    height: auto;
+    width: 2.2rem;
+    margin: 0;
+  }
+
+  .prog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .prog-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+  }
+
+  .prog-2 h4 {
+    font-size: 1.1rem;
+    margin: 0.8rem 0;
+  }
+
+  .prog-2 p {
+    text-align: center;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+
+  .program-btn {
+    display: none;
+  }
+
+  .desktop-link {
+    display: block;
+    margin: 30px 0 30px 0;
+    padding: 25px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+  }
+
+  /* SPEAKERS */
+
+  #speakers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: 0 0 2rem 0;
+  }
+
+  .section-title {
+    margin-top: 1.8rem;
+  }
+
+  .section-title hr {
+    width: 5%;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .cards-section {
+    width: 85%;
+    display: grid;
+    gap: 0.6rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    justify-self: center;
+  }
+
+  .desktop-centralize {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .speaker-card {
+    padding: 0;
+    background-color: #fff;
+    align-items: center;
+    background-image: url(./assets/images/chess-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: top;
+    background-size: 2.8rem;
+    margin: 0.7rem 0;
+  }
+
+  .speaker-image {
+    width: 6rem;
+    height: 6rem;
+  }
+
+  .speaker-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .speaker-content hr {
+    margin: 0.2rem;
+    width: 1rem;
+  }
+
+  .speaker-content h3,
+  .speaker-content p {
+    font-size: 0.7rem;
+  }
+
+  /* PARTNERS */
+
+  .partners h1 {
+    font-size: 1.6rem;
+    margin-top: 1.3rem !important;
+  }
+
+  .partners hr {
+    width: 5%;
+  }
+
+  .partners img {
+    width: 12%;
+    height: auto;
+    margin: 1rem;
+  }
+
+  .p-image-container {
+    justify-content: center;
+    margin: 0 0 2rem 0 !important;
   }
 }
