@@ -19,7 +19,7 @@
 
 ## Live Demo
 
-[Live Demo Link](franciscoponcedev.github.io/capstone1/)
+[Live Demo Link](https://franciscoponcedev.github.io/Capstone1/)
 
 ### Project requirements
 
