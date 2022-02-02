@@ -7,6 +7,10 @@
   display: none;
 }
 
+.desktop-only {
+  display: none;
+}
+
 .div-box {
   color: #272a31be;
   border: #d3d3d3b2 solid 2px;
