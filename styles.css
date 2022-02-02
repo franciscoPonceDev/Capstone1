@@ -263,18 +263,35 @@ a:hover {
 }
 
 .program-item img {
-  height: 50px;
-  margin: 0 0 0 20px;
+  height: 2.2rem;
+  margin: 0 0 0 10px;
 }
 
 .program-item h4 {
   color: #ec5242;
   font-weight: 600;
-  margin: 0 0 0 40px;
+  margin: 0 0 0 20px;
+  font-size: 1.1rem;
 }
 
 .program-item p {
   color: #fff;
+  font-size: 0.9rem;
+}
+
+@media (min-width: 400px) {
+  .program-item img {
+    height: 2.3rem;
+  }
+
+  .program-item h4 {
+    margin: 0 0 0 30px;
+    font-size: 1.2rem;
+  }
+
+  .program-item p {
+    font-size: 1.1rem;
+  }
 }
 
 .program button {
