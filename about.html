@@ -15,48 +15,48 @@
         <title>About AC Global Summit</title>
     </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <div class="container-fluid">
-            <div class="logo-div me-auto bd-highlight">
-              <a class="navbar-brand" href="#"><img id="logo-img" src="./assets/images/Logo.png" alt="Logo"></a>
-            </div>
-            <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="toggler-icon top-bar"></span>
-              <span class="toggler-icon middle-bar"></span>
-              <span class="toggler-icon bottom-bar"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav me-auto ms-3 mt-5 mb-lg-0 ">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home Page</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html#program">Program</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Join</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#partners">Sponsor</a>
-                </li>
-                <li class="nav-item mb-2">
-                  <a class="nav-link active" aria-current="page" href="#">News</a>
-                </li>
-                <li class="nav-item">
-                  <button type="button" class="menu-btn">AC Campaign</button>
-                  <hr>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
-      </header>
+  <header class="header shadow">
+    <div class="logo-div me-auto bd-highlight">
+      <a class="navbar-brand" href="#"><img id="logo-img" src="./assets/images/Logo.png" alt="Logo"></a>
+    </div>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav me-auto ms-3 mb-lg-0 ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="./index.html">Home Page</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html#program">Program</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Join</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#partners">Sponsor</a>
+            </li>
+            <li class="nav-item mb-2 zeromargin">
+              <a class="nav-link active" aria-current="page" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="menu-btn">AC Campaign</button>
+              <hr>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
       <section id="about">
         <img class="heading-bg" src="./assets/images/heading-bg-2.png" alt="konoha panoramic view">
         <div class="heading-content">
           <h2>"Hello! Anime FAN"</h2><br>
-          <header class="d-flex"><h1>ANIME CHARACTER GLOBAL SUMMIT</h1></header>
+          <header class="d-flex"><h1>ANIME CHARACTER GLOBAL SUMMIT</h1></header><hr class="desktop-only">
           <div class="div-box my-4">
             <p class="secondary-text">The Global Summit brings together all anime universes experts, academica, and personalities every two years. This year we hope to expand our invitation list including other universes from different media, like video-games.</p>
           </div>
@@ -72,7 +72,7 @@
         </button>
       </section>
       <section id="logo" class="logo-section d-flex flex-column justify-content-center align-items-center">
-          <header><h1>Anime Characters<br>Global Summit 2020 logo</h1></header>
+          <header><h1>Anime Characters<br class="desktop-hide">Global Summit 2020 Logo</h1></header>
           <hr>
           <p>The logo of AC Global Summit 2022 was decided</p>
           <p>through the logo competition from 8. June to 7.July.</p>
@@ -81,8 +81,7 @@
       <section id="past" class="past-section d-flex flex-column justify-content-center align-items-center">
         <header><h1>See the past AC Global Summits</h1></header>
         <hr>
-        <p>Take a look at the last two AC Global Summits which took place</p>
-        <p>in Digiworld and New Aincrad</p>
+        <p>Take a look at the last two AC Global Summits which took place<br class="desktop-hide"> in Digiworld and New Aincrad</p>
         <div class="past-container">
             <div class="img-container">
                 <img src="./assets/images/2018.jpg" alt="a lot of anime characters">
@@ -102,7 +101,7 @@
             </div>
         </div>
     </section>
-    <section id="partners" class="partners d-flex flex-column align-items-center">
+    <section id="partners" class="desktop-hide partners d-flex flex-column align-items-center">
         <header><h1 class="mt-5">Partner</h1></header>
         <hr>
         <div class="p-image-container mb-5">
@@ -114,7 +113,8 @@
         </div>
       </section>
       <footer class="d-flex align-items-center justify-content-evenly">
-        <a href="#"><img id="logo-img-footer" src="./assets/images/Logo.png" alt="Logo"></a>
+        <a href="#"><img class="desktop-hide" id="logo-img-footer" src="./assets/images/Logo.png" alt="Logo"></a>
+        <a href="#"><img class="desktop-show" id="logo-img-footer2" src="./assets/images/logo2.png" alt="Logo"></a>
         <h3>2022 AC Global Summut.<br>Some Rights Reserved.</h3>
       </footer>
       <script src="backToTheTop.js"></script>

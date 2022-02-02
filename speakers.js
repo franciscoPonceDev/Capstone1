@@ -16,7 +16,7 @@ const speakers = [
     imageAlt: 'Saitama from One Punch Man',
   },
   {
-    name: "Kazuto 'Kirito' Kirigaya",
+    name: 'Kirito',
     description: 'The main protagonist of Sword Art Online, he is one of SAO beta testers',
     lecture: 'How to dual wield workshop',
     id: 3,
@@ -42,7 +42,7 @@ const speakers = [
   {
     name: 'Violet Evergarden',
     description: 'Ex elite combatant, works as an Auto Memory Doll to CH Postal.',
-    lecture: "Lecture: The meaning of the words 'I love you'.",
+    lecture: "The meaning of the words 'I love you'.",
     id: 6,
     imageUrl: './assets/speakers/violet.jpg',
     imageAlt: 'Violet Evergarden, from violet evergarden',
